@@ -31,9 +31,11 @@ unzip -q rawdata.zip
 mkdir data
 
 # 2. Move the ./rawdata directory to ./data/raw
+cd data
 mkdir raw
 mv ./rawdata ./data/raw
 # 3. List the contents of the ./data/raw directory
+ls 
 event_log_1.log		ipaddr_1.txt		server_log_28.log	user_log_1.log
 event_log_10.log	ipaddr_10.txt		server_log_29.log	user_log_10.log
 event_log_11.log	ipaddr_2.txt		server_log_3.log	user_log_11.log
